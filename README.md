@@ -1,1 +1,2 @@
-# Proyecto-11
+# Análisis de Riesgo para el Desarrollo de Pozos Petroleros
+En este proyecto, analizamos tres posibles regiones para el desarrollo de pozos petroleros. Usamos diferentes métodos, como las predicciones de volumen de reservas y la técnica del bootstrapping, para entender cuál de ellas podría generar más beneficios. Aunque todas las regiones tienen un riesgo de pérdidas, la Región 2 resultó ser la mejor opción, ya que aunque no generará ganancias, sus pérdidas serían menores comparadas con las demás. Por lo tanto, después de evaluar todos los datos, la Región 2 es la que presenta el menor impacto negativo y, por lo tanto, es la más recomendable para desarrollar los pozos.
