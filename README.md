@@ -1,14 +1,56 @@
-# Análisis de Riesgo para el Desarrollo de Pozos Petroleros
-El objetivo de este proyecto es ayudar a la empresa OilyGiant a seleccionar la mejor región para abrir 200 nuevos pozos de petróleo. Se analizan tres posibles regiones con datos clave sobre la cantidad de petróleo que se podría extraer de cada pozo, y se utilizan diferentes técnicas para evaluar el beneficio y el riesgo de cada opción.
+# 🛢️ Análisis de Riesgo en la Exploración de Pozos Petroleros
 
-🔍 Metodología utilizada:
+Este proyecto fue desarrollado para **OilyGiant**, una empresa del sector energético que busca invertir estratégicamente en el desarrollo de **200 nuevos pozos petroleros**. Se evaluaron tres regiones candidatas mediante técnicas de predicción y análisis de riesgo, con el objetivo de tomar decisiones informadas que minimicen las pérdidas y maximicen el retorno esperado.
 
-Predicción de reservas: Se crea un modelo que estima la cantidad de petróleo que podría haber en los nuevos pozos en cada región.
-Selección de pozos con mayor potencial: Después de las predicciones, se identifican los pozos con el mayor volumen de reservas.
-Cálculo del beneficio: Se calculan los posibles beneficios de abrir los pozos en cada una de las tres regiones.
-Evaluación del riesgo: A través de la técnica de bootstrapping, se analizan distintos escenarios de pérdida para cada región, permitiendo entender los riesgos asociados a la inversión.
-📊 Resultados:
+---
 
-La Región 2 fue identificada como la opción más favorable, ya que, aunque no generará ganancias, sus pérdidas son menores comparadas con las otras dos regiones.
-A pesar de que las tres regiones tienen riesgos asociados, la Región 2 ofrece el menor impacto negativo, lo que la convierte en la opción más recomendada.
-🛠️ Tecnologías utilizadas: Python, Pandas, Scikit-Learn, Matplotlib, Bootstrapping.
+## 🎯 Objetivo
+
+- 🧪 Estimar la cantidad de petróleo disponible por pozo en tres regiones distintas.
+- 🔍 Seleccionar los pozos con mayor volumen estimado de reservas.
+- 💰 Calcular el posible beneficio económico por región.
+- ⚖️ Evaluar el **riesgo financiero** mediante simulaciones estadísticas.
+
+---
+
+## 🔍 Metodología
+
+1. **Predicción de Reservas de Petróleo**  
+   Se entrena un modelo de regresión para estimar el volumen de petróleo recuperable por pozo en cada región.
+
+2. **Selección de Pozos Óptimos**  
+   Se seleccionan los **200 pozos con mayor potencial** de producción para evaluar su rendimiento económico.
+
+3. **Cálculo del Beneficio Potencial**  
+   Se calcula el ingreso esperado por pozo, restando el costo de desarrollo a los ingresos estimados.
+
+4. **Evaluación de Riesgos con Bootstrapping**  
+   Se generan **miles de escenarios aleatorios** usando remuestreo para analizar la probabilidad de pérdida.
+
+---
+
+## 📊 Resultados
+
+- 📍 **Región 2** fue identificada como la **mejor opción** entre las tres analizadas.
+- ❌ Aunque ninguna región genera ganancias en promedio, **Región 2 presenta la menor pérdida estimada**.
+- 📉 Las simulaciones muestran que el impacto negativo es **más controlado** en Región 2, haciéndola la más viable desde un enfoque de mitigación de riesgos.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+- Python 🐍  
+- Pandas & NumPy 📊  
+- Scikit-learn 🤖  
+- Matplotlib 📈  
+- Bootstrapping (simulación estadística)
+
+---
+
+## ✅ Conclusión
+
+Este análisis permitió a OilyGiant tomar una decisión estratégica basada en datos, priorizando no solo el rendimiento potencial sino también la **exposición al riesgo financiero**. La combinación de técnicas predictivas y simulaciones probabilísticas proporciona una herramienta sólida para la planificación en industrias de alto riesgo como la energética.
+
+---
+
+📫 ¿Te interesa colaborar en más proyectos de ciencia de datos aplicada? ¡Estoy abierto a nuevas oportunidades y desafíos!
